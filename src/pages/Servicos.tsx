@@ -1,9 +1,12 @@
 import { Fragment } from "react/jsx-runtime";
+import { DefaultLayout } from "../config/layout/DefaultLayout";
 
 export function Servicos() {
   return (
     <Fragment>
-      <h1>Serviços</h1>
+      <DefaultLayout>
+        <h1>Serviços</h1>
+      </DefaultLayout>
     </Fragment>
   );
 }

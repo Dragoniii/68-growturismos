@@ -13,10 +13,10 @@ Ok - 12 - Criar pasta "routes" dentro de "src/config" e dentro dela criar o comp
 Ok - 13 - Chamar o componente RoutesApp no componente App
 Ok - 14 - Criar pasta "global" dentro de "src/config" e dentro dela criar o componente "GlobalStyle.tsx" com o estilo global da aplicação (fontes, resets, sizes)
 Ok - 15 - Chamar o componente GlobalStyle dentro de App, acima do componente de rotas
-NAQUELAS - 16 - Criar o componente Header com os estilos necessários para replicar o layout - 16.1 - Criar o componente Footer com os estilos necessários para replicar o layout
-?? - 17 - Criar pasta "layout" dentro de "src/config" e dentro dela criar componente DefaultLayout - 17.1 - O componente DefaultLayout deve poder receber outro componente como children - 17.2 - Dentro do componente DefaultLayout deve conter a chamada para os componentes Header e Footer. Entre eles, deve ser mostrado o children
-?? - 18 - Englobar todas as páginas da aplicação (Home, Planos, QuemSomos, Servicos) com o componente DefaultLayout
-FAZER - 19 - Criar o conteúdo e estilo à ser mostrado na página Home.tsx
-FAZER - 20 - Criar o conteúdo e estilo à ser mostrado na página QuemSomos.tsx
-FAZER - 21 - Criar o conteúdo e estilo à ser mostrado na página Servicos.tsx
-FAZER - 22 - Criar o conteúdo e estilo à ser mostrado na página Planos.tsx
+Ok - 16 - Criar o componente Header com os estilos necessários para replicar o layout - 16.1 - Criar o componente Footer com os estilos necessários para replicar o layout
+Ok - 17 - Criar pasta "layout" dentro de "src/config" e dentro dela criar componente DefaultLayout - 17.1 - O componente DefaultLayout deve poder receber outro componente como children - 17.2 - Dentro do componente DefaultLayout deve conter a chamada para os componentes Header e Footer. Entre eles, deve ser mostrado o children
+Ok - 18 - Englobar todas as páginas da aplicação (Home, Planos, QuemSomos, Servicos) com o componente DefaultLayout
+Ok - 19 - Criar o conteúdo e estilo à ser mostrado na página Home.tsx
+Ok - 20 - Criar o conteúdo e estilo à ser mostrado na página QuemSomos.tsx
+Ok - 21 - Criar o conteúdo e estilo à ser mostrado na página Servicos.tsx
+Ok - 22 - Criar o conteúdo e estilo à ser mostrado na página Planos.tsx
