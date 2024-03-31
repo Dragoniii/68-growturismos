@@ -1,11 +1,9 @@
-import { Fragment } from "react/jsx-runtime";
+import { Header as HeaderStyled } from "../styled/Header";
 
 export function Header() {
   return (
-    <Fragment>
-      <header>
-        <h2>Cabeçalho</h2>
-      </header>
-    </Fragment>
+    <HeaderStyled>
+      <h1>GrowTravel</h1>
+    </HeaderStyled>
   );
 }

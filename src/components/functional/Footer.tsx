@@ -1,11 +1,10 @@
-import { Fragment } from "react/jsx-runtime";
+import { Footer as FooterStyled } from "../styled/Footer";
 
 export function Footer() {
   return (
-    <Fragment>
-      <footer>
-        <h2>Rodapé</h2>
-      </footer>
-    </Fragment>
+    <FooterStyled>
+      <small>&copy; 2024 Full Stack Growdev</small>
+      <small>17ª Edição - Turma 02</small>
+    </FooterStyled>
   );
 }
