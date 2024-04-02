@@ -3,7 +3,7 @@ import { Home } from "../../pages/Home";
 import { Planos } from "../../pages/Planos";
 import { QuemSomos } from "../../pages/QuemSomos";
 import { Servicos } from "../../pages/Servicos";
-
+import { Contato } from "../../pages/Contato";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +22,11 @@ const router = createBrowserRouter([
     path: "/servicos",
     element: <Servicos />,
   },
+  {
+    path: "/contato",
+    element: <Contato />,
+  }
+  
 ]);
 
 export function AppRoutes() {
