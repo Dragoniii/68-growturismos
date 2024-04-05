@@ -5,7 +5,7 @@ export function Contato() {
   return (
     <Fragment>
       <DefaultLayout>
-        <h1>Contato</h1>
+        <br />
       </DefaultLayout>
     </Fragment>
   );

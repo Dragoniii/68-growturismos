@@ -6,8 +6,12 @@ export function Header() {
   return (
     <HeaderStyled>
       <ul>
-        {Navigation.map((item) => (
-          <li>
+        {Navigation.map((item, index) => (
+          <li
+            key={index}
+            id={`nav-item-${index}`}
+            className={index === 0 ? "first-item" : ""}
+          >
             <Link to={item.path}>{item.element}</Link>
           </li>
         ))}

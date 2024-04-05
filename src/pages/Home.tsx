@@ -1,11 +1,13 @@
 import { Fragment } from "react/jsx-runtime";
 import { DefaultLayout } from "../config/layout/DefaultLayout";
+import { MainHome } from "../components/functional/MainHome";
+
 
 export function Home() {
   return (
     <Fragment>
       <DefaultLayout>
-        <h1>Home</h1>
+      <MainHome/>
       </DefaultLayout>
     </Fragment>
   );

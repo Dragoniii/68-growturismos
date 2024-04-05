@@ -1,11 +1,12 @@
 import { Fragment } from "react/jsx-runtime";
 import { DefaultLayout } from "../config/layout/DefaultLayout";
+import { MainQuemSomos } from "../components/functional/MainQuemSomos";
 
 export function QuemSomos() {
   return (
     <Fragment>
       <DefaultLayout>
-        <h1>Quem Somos</h1>
+        <MainQuemSomos />
       </DefaultLayout>
     </Fragment>
   );

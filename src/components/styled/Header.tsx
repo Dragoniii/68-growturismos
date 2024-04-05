@@ -3,21 +3,23 @@ import styled from "styled-components";
 export const Header = styled.header`
   background-color: #122a57;
   color: white;
-  min-height: 8rem;
+  height: 120px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  font-size: 1rem;
 
   ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 58%;
   }
 
   a {
-    color: gray;
+    color: #cccc;
     text-decoration: none;
   }
 
@@ -26,6 +28,11 @@ export const Header = styled.header`
       color: white;
       font-weight: bold;
     }
-  }
 
+    &.first-item a {
+      margin-right: 25rem;
+      font-size: 2rem;
+      color: white;
+    }
+  }
 `;

@@ -1,11 +1,12 @@
 import { Fragment } from "react/jsx-runtime";
 import { DefaultLayout } from "../config/layout/DefaultLayout";
+import { MainPlanos } from "../components/functional/MainPlanos";
 
 export function Planos() {
   return (
     <Fragment>
       <DefaultLayout>
-        <h1>Planos</h1>
+        <MainPlanos />
       </DefaultLayout>
     </Fragment>
   );
